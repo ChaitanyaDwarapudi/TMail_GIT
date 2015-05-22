@@ -1,0 +1,783 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		540AA80E1B09E7AE00DB5D95 /* TMSendEmailHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 540AA80D1B09E7AE00DB5D95 /* TMSendEmailHandler.m */; };
+		540AA8171B09E7FE00DB5D95 /* TMSendEmail_Enums.m in Sources */ = {isa = PBXBuildFile; fileRef = 540AA8141B09E7FE00DB5D95 /* TMSendEmail_Enums.m */; };
+		540AA8181B09E7FE00DB5D95 /* TMSendEmailRequestType.m in Sources */ = {isa = PBXBuildFile; fileRef = 540AA8161B09E7FE00DB5D95 /* TMSendEmailRequestType.m */; };
+		547C3E841B0DE961004F630E /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 547C3E831B0DE961004F630E /* MBProgressHUD.m */; };
+		548AE7D71B09CBB800D0DB61 /* TMApplicationLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 548AE7D41B09CBB800D0DB61 /* TMApplicationLog.m */; };
+		548AE7D81B09CBB800D0DB61 /* TMPasteboardHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 548AE7D61B09CBB800D0DB61 /* TMPasteboardHelper.m */; };
+		54DDCE731B0F90820094B3BF /* TMPrimaryButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DDCE701B0F90820094B3BF /* TMPrimaryButton.m */; };
+		54DDCE741B0F90820094B3BF /* TMSecondaryButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DDCE721B0F90820094B3BF /* TMSecondaryButton.m */; };
+		54F219CE1B031CDF00CADD9B /* TMContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F219CB1B031CDF00CADD9B /* TMContentViewController.m */; };
+		54F219CF1B031CDF00CADD9B /* TMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F219CD1B031CDF00CADD9B /* TMViewController.m */; };
+		54F219D21B031D3B00CADD9B /* MPGTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F219D11B031D3B00CADD9B /* MPGTextField.m */; };
+		54F219E01B031D8E00CADD9B /* NSString+TMail.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F219D41B031D8E00CADD9B /* NSString+TMail.m */; };
+		54F219E11B031D8E00CADD9B /* UIColor+TMail.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F219D71B031D8E00CADD9B /* UIColor+TMail.m */; };
+		54F219E21B031D8E00CADD9B /* UILabel+TMail.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F219D91B031D8E00CADD9B /* UILabel+TMail.m */; };
+		54F219E81B031D9C00CADD9B /* TMConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F219E71B031D9C00CADD9B /* TMConstants.m */; };
+		54F219EC1B031DA900CADD9B /* TMEmployeeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F219EA1B031DA900CADD9B /* TMEmployeeCell.m */; };
+		54F219ED1B031DA900CADD9B /* TMEmployeeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54F219EB1B031DA900CADD9B /* TMEmployeeCell.xib */; };
+		54F86C511B061092003F4925 /* TMWebserviceHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F86C501B061092003F4925 /* TMWebserviceHandler.m */; };
+		54F86C531B06277B003F4925 /* ActiveDirectoryFile.txt in Resources */ = {isa = PBXBuildFile; fileRef = 54F86C521B06277B003F4925 /* ActiveDirectoryFile.txt */; };
+		73EF30221AFBA70100EB5307 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 73EF30211AFBA70100EB5307 /* main.m */; };
+		73EF30251AFBA70100EB5307 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 73EF30241AFBA70100EB5307 /* AppDelegate.m */; };
+		73EF302B1AFBA70100EB5307 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73EF30291AFBA70100EB5307 /* Main.storyboard */; };
+		73EF302D1AFBA70100EB5307 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73EF302C1AFBA70100EB5307 /* Images.xcassets */; };
+		73EF30301AFBA70100EB5307 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73EF302E1AFBA70100EB5307 /* LaunchScreen.xib */; };
+		73EF303C1AFBA70100EB5307 /* TMailTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73EF303B1AFBA70100EB5307 /* TMailTests.m */; };
+		C602A2F21B02012400259A8C /* sample_data.json in Resources */ = {isa = PBXBuildFile; fileRef = C602A2F11B02012400259A8C /* sample_data.json */; };
+		C659E14B1B09EBB7008FFD1D /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = C659E14A1B09EBB7008FFD1D /* Base64.m */; };
+		C659E14E1B09EC16008FFD1D /* TMSendEmailServiceCall.m in Sources */ = {isa = PBXBuildFile; fileRef = C659E14D1B09EC16008FFD1D /* TMSendEmailServiceCall.m */; };
+		C659E1561B09EF69008FFD1D /* TMParseSendEmailResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = C659E1551B09EF69008FFD1D /* TMParseSendEmailResponse.m */; };
+		C659E15B1B0B0066008FFD1D /* caretDown_default.png in Resources */ = {isa = PBXBuildFile; fileRef = C659E1581B0B0066008FFD1D /* caretDown_default.png */; };
+		C659E15C1B0B0066008FFD1D /* caretUp_click-active.png in Resources */ = {isa = PBXBuildFile; fileRef = C659E1591B0B0066008FFD1D /* caretUp_click-active.png */; };
+		C659E15D1B0B0066008FFD1D /* header_icons-back_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = C659E15A1B0B0066008FFD1D /* header_icons-back_arrow.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		73EF30361AFBA70100EB5307 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 73EF30141AFBA70100EB5307 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73EF301B1AFBA70100EB5307;
+			remoteInfo = TMail;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		540AA80C1B09E7AE00DB5D95 /* TMSendEmailHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMSendEmailHandler.h; sourceTree = "<group>"; };
+		540AA80D1B09E7AE00DB5D95 /* TMSendEmailHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMSendEmailHandler.m; sourceTree = "<group>"; };
+		540AA8131B09E7FE00DB5D95 /* TMSendEmail_Enums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMSendEmail_Enums.h; sourceTree = "<group>"; };
+		540AA8141B09E7FE00DB5D95 /* TMSendEmail_Enums.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMSendEmail_Enums.m; sourceTree = "<group>"; };
+		540AA8151B09E7FE00DB5D95 /* TMSendEmailRequestType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMSendEmailRequestType.h; sourceTree = "<group>"; };
+		540AA8161B09E7FE00DB5D95 /* TMSendEmailRequestType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMSendEmailRequestType.m; sourceTree = "<group>"; };
+		547C3E821B0DE961004F630E /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		547C3E831B0DE961004F630E /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		548AE7D31B09CBB800D0DB61 /* TMApplicationLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMApplicationLog.h; sourceTree = "<group>"; };
+		548AE7D41B09CBB800D0DB61 /* TMApplicationLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMApplicationLog.m; sourceTree = "<group>"; };
+		548AE7D51B09CBB800D0DB61 /* TMPasteboardHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMPasteboardHelper.h; sourceTree = "<group>"; };
+		548AE7D61B09CBB800D0DB61 /* TMPasteboardHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMPasteboardHelper.m; sourceTree = "<group>"; };
+		54DDCE6F1B0F90820094B3BF /* TMPrimaryButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMPrimaryButton.h; sourceTree = "<group>"; };
+		54DDCE701B0F90820094B3BF /* TMPrimaryButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMPrimaryButton.m; sourceTree = "<group>"; };
+		54DDCE711B0F90820094B3BF /* TMSecondaryButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMSecondaryButton.h; sourceTree = "<group>"; };
+		54DDCE721B0F90820094B3BF /* TMSecondaryButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMSecondaryButton.m; sourceTree = "<group>"; };
+		54F219CA1B031CDF00CADD9B /* TMContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMContentViewController.h; sourceTree = "<group>"; };
+		54F219CB1B031CDF00CADD9B /* TMContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMContentViewController.m; sourceTree = "<group>"; };
+		54F219CC1B031CDF00CADD9B /* TMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMViewController.h; sourceTree = "<group>"; };
+		54F219CD1B031CDF00CADD9B /* TMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMViewController.m; sourceTree = "<group>"; };
+		54F219D01B031D3B00CADD9B /* MPGTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPGTextField.h; sourceTree = "<group>"; };
+		54F219D11B031D3B00CADD9B /* MPGTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPGTextField.m; sourceTree = "<group>"; };
+		54F219D31B031D8E00CADD9B /* NSString+TMail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TMail.h"; sourceTree = "<group>"; };
+		54F219D41B031D8E00CADD9B /* NSString+TMail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TMail.m"; sourceTree = "<group>"; };
+		54F219D51B031D8E00CADD9B /* TMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMAdditions.h; sourceTree = "<group>"; };
+		54F219D61B031D8E00CADD9B /* UIColor+TMail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+TMail.h"; sourceTree = "<group>"; };
+		54F219D71B031D8E00CADD9B /* UIColor+TMail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+TMail.m"; sourceTree = "<group>"; };
+		54F219D81B031D8E00CADD9B /* UILabel+TMail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+TMail.h"; sourceTree = "<group>"; };
+		54F219D91B031D8E00CADD9B /* UILabel+TMail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+TMail.m"; sourceTree = "<group>"; };
+		54F219E61B031D9C00CADD9B /* TMConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMConstants.h; sourceTree = "<group>"; };
+		54F219E71B031D9C00CADD9B /* TMConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMConstants.m; sourceTree = "<group>"; };
+		54F219E91B031DA900CADD9B /* TMEmployeeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMEmployeeCell.h; sourceTree = "<group>"; };
+		54F219EA1B031DA900CADD9B /* TMEmployeeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMEmployeeCell.m; sourceTree = "<group>"; };
+		54F219EB1B031DA900CADD9B /* TMEmployeeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TMEmployeeCell.xib; sourceTree = "<group>"; };
+		54F86C4F1B061092003F4925 /* TMWebserviceHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMWebserviceHandler.h; sourceTree = "<group>"; };
+		54F86C501B061092003F4925 /* TMWebserviceHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMWebserviceHandler.m; sourceTree = "<group>"; };
+		54F86C521B06277B003F4925 /* ActiveDirectoryFile.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ActiveDirectoryFile.txt; sourceTree = "<group>"; };
+		73EF301C1AFBA70100EB5307 /* TMail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TMail.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		73EF30201AFBA70100EB5307 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73EF30211AFBA70100EB5307 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		73EF30231AFBA70100EB5307 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		73EF30241AFBA70100EB5307 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		73EF302A1AFBA70100EB5307 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		73EF302C1AFBA70100EB5307 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		73EF302F1AFBA70100EB5307 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		73EF30351AFBA70100EB5307 /* TMailTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TMailTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		73EF303A1AFBA70100EB5307 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73EF303B1AFBA70100EB5307 /* TMailTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMailTests.m; sourceTree = "<group>"; };
+		C602A2F11B02012400259A8C /* sample_data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sample_data.json; sourceTree = "<group>"; };
+		C659E1491B09EBB7008FFD1D /* Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64.h; sourceTree = "<group>"; };
+		C659E14A1B09EBB7008FFD1D /* Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64.m; sourceTree = "<group>"; };
+		C659E14C1B09EC16008FFD1D /* TMSendEmailServiceCall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMSendEmailServiceCall.h; sourceTree = "<group>"; };
+		C659E14D1B09EC16008FFD1D /* TMSendEmailServiceCall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMSendEmailServiceCall.m; sourceTree = "<group>"; };
+		C659E1541B09EF69008FFD1D /* TMParseSendEmailResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMParseSendEmailResponse.h; sourceTree = "<group>"; };
+		C659E1551B09EF69008FFD1D /* TMParseSendEmailResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMParseSendEmailResponse.m; sourceTree = "<group>"; };
+		C659E1581B0B0066008FFD1D /* caretDown_default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = caretDown_default.png; sourceTree = "<group>"; };
+		C659E1591B0B0066008FFD1D /* caretUp_click-active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "caretUp_click-active.png"; sourceTree = "<group>"; };
+		C659E15A1B0B0066008FFD1D /* header_icons-back_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "header_icons-back_arrow.png"; sourceTree = "<group>"; };
+		C680B5561B00B958008EBD42 /* TMail.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMail.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		73EF30191AFBA70100EB5307 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73EF30321AFBA70100EB5307 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		540AA8081B09E69200DB5D95 /* Base64 */ = {
+			isa = PBXGroup;
+			children = (
+				C659E1491B09EBB7008FFD1D /* Base64.h */,
+				C659E14A1B09EBB7008FFD1D /* Base64.m */,
+			);
+			path = Base64;
+			sourceTree = "<group>";
+		};
+		540AA80F1B09E7DC00DB5D95 /* ServiceCall */ = {
+			isa = PBXGroup;
+			children = (
+				C659E14C1B09EC16008FFD1D /* TMSendEmailServiceCall.h */,
+				C659E14D1B09EC16008FFD1D /* TMSendEmailServiceCall.m */,
+			);
+			path = ServiceCall;
+			sourceTree = "<group>";
+		};
+		547C3E811B0DE958004F630E /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				547C3E821B0DE961004F630E /* MBProgressHUD.h */,
+				547C3E831B0DE961004F630E /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		548AE7D21B09CBB800D0DB61 /* TMUtils */ = {
+			isa = PBXGroup;
+			children = (
+				548AE7D31B09CBB800D0DB61 /* TMApplicationLog.h */,
+				548AE7D41B09CBB800D0DB61 /* TMApplicationLog.m */,
+				548AE7D51B09CBB800D0DB61 /* TMPasteboardHelper.h */,
+				548AE7D61B09CBB800D0DB61 /* TMPasteboardHelper.m */,
+			);
+			path = TMUtils;
+			sourceTree = "<group>";
+		};
+		54DDCE6E1B0F90820094B3BF /* TMCustomButtons */ = {
+			isa = PBXGroup;
+			children = (
+				54DDCE6F1B0F90820094B3BF /* TMPrimaryButton.h */,
+				54DDCE701B0F90820094B3BF /* TMPrimaryButton.m */,
+				54DDCE711B0F90820094B3BF /* TMSecondaryButton.h */,
+				54DDCE721B0F90820094B3BF /* TMSecondaryButton.m */,
+			);
+			path = TMCustomButtons;
+			sourceTree = "<group>";
+		};
+		54F86C4E1B061032003F4925 /* TMWebserviceHandler */ = {
+			isa = PBXGroup;
+			children = (
+				540AA80C1B09E7AE00DB5D95 /* TMSendEmailHandler.h */,
+				540AA80D1B09E7AE00DB5D95 /* TMSendEmailHandler.m */,
+				54F86C4F1B061092003F4925 /* TMWebserviceHandler.h */,
+				54F86C501B061092003F4925 /* TMWebserviceHandler.m */,
+			);
+			path = TMWebserviceHandler;
+			sourceTree = "<group>";
+		};
+		73EF30131AFBA70100EB5307 = {
+			isa = PBXGroup;
+			children = (
+				C680B52F1B00ACDA008EBD42 /* Dependency */,
+				73EF301E1AFBA70100EB5307 /* TMail */,
+				73EF30381AFBA70100EB5307 /* TMailTests */,
+				73EF301D1AFBA70100EB5307 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		73EF301D1AFBA70100EB5307 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				73EF301C1AFBA70100EB5307 /* TMail.app */,
+				73EF30351AFBA70100EB5307 /* TMailTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		73EF301E1AFBA70100EB5307 /* TMail */ = {
+			isa = PBXGroup;
+			children = (
+				540AA80F1B09E7DC00DB5D95 /* ServiceCall */,
+				C680B5321B00AD3C008EBD42 /* Constants */,
+				C680B5331B00AD3C008EBD42 /* Data */,
+				C680B5361B00AD3C008EBD42 /* UI */,
+				73EF30231AFBA70100EB5307 /* AppDelegate.h */,
+				73EF30241AFBA70100EB5307 /* AppDelegate.m */,
+				73EF30291AFBA70100EB5307 /* Main.storyboard */,
+				73EF302C1AFBA70100EB5307 /* Images.xcassets */,
+				73EF302E1AFBA70100EB5307 /* LaunchScreen.xib */,
+				73EF301F1AFBA70100EB5307 /* Supporting Files */,
+			);
+			path = TMail;
+			sourceTree = "<group>";
+		};
+		73EF301F1AFBA70100EB5307 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C659E1571B0B0040008FFD1D /* TMAssets */,
+				C602A2F01B01FEBA00259A8C /* TestJSONfile */,
+				73EF30201AFBA70100EB5307 /* Info.plist */,
+				73EF30211AFBA70100EB5307 /* main.m */,
+				C680B5561B00B958008EBD42 /* TMail.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		73EF30381AFBA70100EB5307 /* TMailTests */ = {
+			isa = PBXGroup;
+			children = (
+				73EF303B1AFBA70100EB5307 /* TMailTests.m */,
+				73EF30391AFBA70100EB5307 /* Supporting Files */,
+			);
+			path = TMailTests;
+			sourceTree = "<group>";
+		};
+		73EF30391AFBA70100EB5307 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				73EF303A1AFBA70100EB5307 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C602A2F01B01FEBA00259A8C /* TestJSONfile */ = {
+			isa = PBXGroup;
+			children = (
+				C602A2F11B02012400259A8C /* sample_data.json */,
+				54F86C521B06277B003F4925 /* ActiveDirectoryFile.txt */,
+			);
+			path = TestJSONfile;
+			sourceTree = "<group>";
+		};
+		C659E1531B09EF34008FFD1D /* TMParseSoapResponse */ = {
+			isa = PBXGroup;
+			children = (
+				C659E1541B09EF69008FFD1D /* TMParseSendEmailResponse.h */,
+				C659E1551B09EF69008FFD1D /* TMParseSendEmailResponse.m */,
+			);
+			path = TMParseSoapResponse;
+			sourceTree = "<group>";
+		};
+		C659E1571B0B0040008FFD1D /* TMAssets */ = {
+			isa = PBXGroup;
+			children = (
+				C659E1581B0B0066008FFD1D /* caretDown_default.png */,
+				C659E1591B0B0066008FFD1D /* caretUp_click-active.png */,
+				C659E15A1B0B0066008FFD1D /* header_icons-back_arrow.png */,
+			);
+			path = TMAssets;
+			sourceTree = "<group>";
+		};
+		C680B52F1B00ACDA008EBD42 /* Dependency */ = {
+			isa = PBXGroup;
+			children = (
+				C680B5301B00ACDA008EBD42 /* Additions */,
+				C680B5311B00ACDA008EBD42 /* Vendors */,
+			);
+			path = Dependency;
+			sourceTree = "<group>";
+		};
+		C680B5301B00ACDA008EBD42 /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				54F219D31B031D8E00CADD9B /* NSString+TMail.h */,
+				54F219D41B031D8E00CADD9B /* NSString+TMail.m */,
+				54F219D51B031D8E00CADD9B /* TMAdditions.h */,
+				54F219D61B031D8E00CADD9B /* UIColor+TMail.h */,
+				54F219D71B031D8E00CADD9B /* UIColor+TMail.m */,
+				54F219D81B031D8E00CADD9B /* UILabel+TMail.h */,
+				54F219D91B031D8E00CADD9B /* UILabel+TMail.m */,
+			);
+			path = Additions;
+			sourceTree = "<group>";
+		};
+		C680B5311B00ACDA008EBD42 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				547C3E811B0DE958004F630E /* MBProgressHUD */,
+				540AA8081B09E69200DB5D95 /* Base64 */,
+				C680B5581B00D602008EBD42 /* MPGTextField */,
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		C680B5321B00AD3C008EBD42 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				54F219E61B031D9C00CADD9B /* TMConstants.h */,
+				54F219E71B031D9C00CADD9B /* TMConstants.m */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		C680B5331B00AD3C008EBD42 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				C680B5341B00AD3C008EBD42 /* DataAccess */,
+				C680B5351B00AD3C008EBD42 /* DataModal */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		C680B5341B00AD3C008EBD42 /* DataAccess */ = {
+			isa = PBXGroup;
+			children = (
+				C659E1531B09EF34008FFD1D /* TMParseSoapResponse */,
+				548AE7D21B09CBB800D0DB61 /* TMUtils */,
+				54F86C4E1B061032003F4925 /* TMWebserviceHandler */,
+			);
+			path = DataAccess;
+			sourceTree = "<group>";
+		};
+		C680B5351B00AD3C008EBD42 /* DataModal */ = {
+			isa = PBXGroup;
+			children = (
+				540AA8131B09E7FE00DB5D95 /* TMSendEmail_Enums.h */,
+				540AA8141B09E7FE00DB5D95 /* TMSendEmail_Enums.m */,
+				540AA8151B09E7FE00DB5D95 /* TMSendEmailRequestType.h */,
+				540AA8161B09E7FE00DB5D95 /* TMSendEmailRequestType.m */,
+			);
+			path = DataModal;
+			sourceTree = "<group>";
+		};
+		C680B5361B00AD3C008EBD42 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				C6CD62701B0227C900DEBD13 /* Cells */,
+				C680B5381B00AD3C008EBD42 /* ViewControllers */,
+				C680B5391B00AD3C008EBD42 /* Views */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		C680B5381B00AD3C008EBD42 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				54F219CA1B031CDF00CADD9B /* TMContentViewController.h */,
+				54F219CB1B031CDF00CADD9B /* TMContentViewController.m */,
+				54F219CC1B031CDF00CADD9B /* TMViewController.h */,
+				54F219CD1B031CDF00CADD9B /* TMViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C680B5391B00AD3C008EBD42 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				54DDCE6E1B0F90820094B3BF /* TMCustomButtons */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C680B5581B00D602008EBD42 /* MPGTextField */ = {
+			isa = PBXGroup;
+			children = (
+				54F219D01B031D3B00CADD9B /* MPGTextField.h */,
+				54F219D11B031D3B00CADD9B /* MPGTextField.m */,
+			);
+			path = MPGTextField;
+			sourceTree = "<group>";
+		};
+		C6CD62701B0227C900DEBD13 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				54F219E91B031DA900CADD9B /* TMEmployeeCell.h */,
+				54F219EA1B031DA900CADD9B /* TMEmployeeCell.m */,
+				54F219EB1B031DA900CADD9B /* TMEmployeeCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		73EF301B1AFBA70100EB5307 /* TMail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73EF303F1AFBA70100EB5307 /* Build configuration list for PBXNativeTarget "TMail" */;
+			buildPhases = (
+				73EF30181AFBA70100EB5307 /* Sources */,
+				73EF30191AFBA70100EB5307 /* Frameworks */,
+				73EF301A1AFBA70100EB5307 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TMail;
+			productName = TMail;
+			productReference = 73EF301C1AFBA70100EB5307 /* TMail.app */;
+			productType = "com.apple.product-type.application";
+		};
+		73EF30341AFBA70100EB5307 /* TMailTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73EF30421AFBA70100EB5307 /* Build configuration list for PBXNativeTarget "TMailTests" */;
+			buildPhases = (
+				73EF30311AFBA70100EB5307 /* Sources */,
+				73EF30321AFBA70100EB5307 /* Frameworks */,
+				73EF30331AFBA70100EB5307 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73EF30371AFBA70100EB5307 /* PBXTargetDependency */,
+			);
+			name = TMailTests;
+			productName = TMailTests;
+			productReference = 73EF30351AFBA70100EB5307 /* TMailTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		73EF30141AFBA70100EB5307 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = ProKarma;
+				TargetAttributes = {
+					73EF301B1AFBA70100EB5307 = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = HR55N647S6;
+					};
+					73EF30341AFBA70100EB5307 = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = HR55N647S6;
+						TestTargetID = 73EF301B1AFBA70100EB5307;
+					};
+				};
+			};
+			buildConfigurationList = 73EF30171AFBA70100EB5307 /* Build configuration list for PBXProject "TMail" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 73EF30131AFBA70100EB5307;
+			productRefGroup = 73EF301D1AFBA70100EB5307 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				73EF301B1AFBA70100EB5307 /* TMail */,
+				73EF30341AFBA70100EB5307 /* TMailTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		73EF301A1AFBA70100EB5307 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73EF302B1AFBA70100EB5307 /* Main.storyboard in Resources */,
+				73EF30301AFBA70100EB5307 /* LaunchScreen.xib in Resources */,
+				73EF302D1AFBA70100EB5307 /* Images.xcassets in Resources */,
+				C659E15B1B0B0066008FFD1D /* caretDown_default.png in Resources */,
+				54F219ED1B031DA900CADD9B /* TMEmployeeCell.xib in Resources */,
+				C659E15C1B0B0066008FFD1D /* caretUp_click-active.png in Resources */,
+				54F86C531B06277B003F4925 /* ActiveDirectoryFile.txt in Resources */,
+				C602A2F21B02012400259A8C /* sample_data.json in Resources */,
+				C659E15D1B0B0066008FFD1D /* header_icons-back_arrow.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73EF30331AFBA70100EB5307 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		73EF30181AFBA70100EB5307 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54DDCE741B0F90820094B3BF /* TMSecondaryButton.m in Sources */,
+				548AE7D81B09CBB800D0DB61 /* TMPasteboardHelper.m in Sources */,
+				54F219EC1B031DA900CADD9B /* TMEmployeeCell.m in Sources */,
+				54F86C511B061092003F4925 /* TMWebserviceHandler.m in Sources */,
+				54F219E21B031D8E00CADD9B /* UILabel+TMail.m in Sources */,
+				540AA8181B09E7FE00DB5D95 /* TMSendEmailRequestType.m in Sources */,
+				547C3E841B0DE961004F630E /* MBProgressHUD.m in Sources */,
+				C659E14B1B09EBB7008FFD1D /* Base64.m in Sources */,
+				C659E1561B09EF69008FFD1D /* TMParseSendEmailResponse.m in Sources */,
+				C659E14E1B09EC16008FFD1D /* TMSendEmailServiceCall.m in Sources */,
+				54F219D21B031D3B00CADD9B /* MPGTextField.m in Sources */,
+				73EF30251AFBA70100EB5307 /* AppDelegate.m in Sources */,
+				54F219CE1B031CDF00CADD9B /* TMContentViewController.m in Sources */,
+				54F219E11B031D8E00CADD9B /* UIColor+TMail.m in Sources */,
+				54F219E81B031D9C00CADD9B /* TMConstants.m in Sources */,
+				54F219E01B031D8E00CADD9B /* NSString+TMail.m in Sources */,
+				548AE7D71B09CBB800D0DB61 /* TMApplicationLog.m in Sources */,
+				73EF30221AFBA70100EB5307 /* main.m in Sources */,
+				540AA80E1B09E7AE00DB5D95 /* TMSendEmailHandler.m in Sources */,
+				54DDCE731B0F90820094B3BF /* TMPrimaryButton.m in Sources */,
+				540AA8171B09E7FE00DB5D95 /* TMSendEmail_Enums.m in Sources */,
+				54F219CF1B031CDF00CADD9B /* TMViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73EF30311AFBA70100EB5307 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73EF303C1AFBA70100EB5307 /* TMailTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		73EF30371AFBA70100EB5307 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 73EF301B1AFBA70100EB5307 /* TMail */;
+			targetProxy = 73EF30361AFBA70100EB5307 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		73EF30291AFBA70100EB5307 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73EF302A1AFBA70100EB5307 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		73EF302E1AFBA70100EB5307 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73EF302F1AFBA70100EB5307 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		73EF303D1AFBA70100EB5307 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: T-MOBILE USA INC";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: T-MOBILE USA INC";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "2ded10f2-fa32-41c9-adb6-a2c773e7410e";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		73EF303E1AFBA70100EB5307 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: T-MOBILE USA INC";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: T-MOBILE USA INC";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "2ded10f2-fa32-41c9-adb6-a2c773e7410e";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		73EF30401AFBA70100EB5307 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: T-MOBILE USA INC";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: T-MOBILE USA INC";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = TMail/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-lxml2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "2ded10f2-fa32-41c9-adb6-a2c773e7410e";
+			};
+			name = Debug;
+		};
+		73EF30411AFBA70100EB5307 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: T-MOBILE USA INC";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: T-MOBILE USA INC";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = TMail/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-lxml2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "2ded10f2-fa32-41c9-adb6-a2c773e7410e";
+			};
+			name = Release;
+		};
+		73EF30431AFBA70100EB5307 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TMail/TMail.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TMailTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TMail.app/TMail";
+			};
+			name = Debug;
+		};
+		73EF30441AFBA70100EB5307 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TMail/TMail.pch;
+				INFOPLIST_FILE = TMailTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TMail.app/TMail";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		73EF30171AFBA70100EB5307 /* Build configuration list for PBXProject "TMail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73EF303D1AFBA70100EB5307 /* Debug */,
+				73EF303E1AFBA70100EB5307 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73EF303F1AFBA70100EB5307 /* Build configuration list for PBXNativeTarget "TMail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73EF30401AFBA70100EB5307 /* Debug */,
+				73EF30411AFBA70100EB5307 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73EF30421AFBA70100EB5307 /* Build configuration list for PBXNativeTarget "TMailTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73EF30431AFBA70100EB5307 /* Debug */,
+				73EF30441AFBA70100EB5307 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 73EF30141AFBA70100EB5307 /* Project object */;
+}

@@ -1,0 +1,40 @@
+//
+//  TMail.pch
+//  TMail
+//
+//  Created by Ranjith on 5/11/15.
+//  Copyright (c) 2015 T-Mobile All rights reserved.
+//
+
+#ifndef TMail_TMail_pch
+#define TMail_TMail_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file
+
+#import "TMAdditions.h"
+
+#ifdef DEBUG
+
+#define DLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+
+#else
+
+#define DLog(...)
+
+#endif
+
+#define ALog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+
+#ifdef DEBUG
+
+#define ULog(fmt, ...) { UIAlertView *alert = [[UIAlertView alloc] initWithTitle:[NSString stringWithFormat:@"%s\n [Line %d] ", PRETTY_FUNCTION, LINE] message:[NSString stringWithFormat:fmt, ##VA_ARGS] delegate:nil cancelButtonTitle:@"Ok" otherButtonTitles:nil]; [alert show]; }
+
+#else
+
+#define ULog(...)
+
+#endif
+
+
+#endif

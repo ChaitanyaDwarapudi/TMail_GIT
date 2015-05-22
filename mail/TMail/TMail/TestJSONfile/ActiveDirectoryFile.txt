@@ -1,0 +1,58 @@
+[
+{
+"first_name": "Chaitanya",
+"last_name": "D",
+"company_name": "Benton",
+"email": "dchaitanya@prokarma.com",
+"desgination": "Software Developer"
+},
+{
+"first_name": "Ranjith",
+"last_name": "Kumar",
+"company_name": "Jack",
+"email": "rranjith@prokarma.com",
+"desgination": "Software Developer"
+},
+{
+"first_name": "Saran",
+"last_name": "R",
+"company_name": "Jack",
+"email": "rsaran@prokarma.com",
+"desgination": "Software Developer"
+},
+{
+"first_name": "Rajesh",
+"last_name": "kuamr",
+"company_name": "Jack",
+"email": "prajeshkumar@prokarma.com",
+"desgination": "Software Developer"
+},
+{
+"first_name": "McKee",
+"last_name": "James",
+"company_name": "Jack",
+"email": "James.McKee8@T-Mobile.com",
+"desgination": "CW - Contractor,Technology"
+},
+{
+"first_name": "Krienke",
+"last_name": "Martin",
+"company_name": "Jack",
+"email": "Martin.Krienke@T-Mobile.com",
+"desgination": "Sr Manager, Software Development"
+},
+{
+"first_name": "Lopez Perez",
+"last_name": "Ernesto",
+"company_name": "Jack",
+"email": "Ernesto.LopezPerez@T-Mobile.com",
+"desgination": "Visual Designer"
+},
+{
+"first_name": "Gaurav",
+"last_name": "Bajaj",
+"company_name": "Jack",
+"email": "gbajaj@prokarma.com",
+"desgination": "Engagement Manager"
+}
+]

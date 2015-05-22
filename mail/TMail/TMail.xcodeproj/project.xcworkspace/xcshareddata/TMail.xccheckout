@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>EDB497DA-F469-4DBC-AAD4-30303B9C6976</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TMail</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>9D7E72135AF9DB119591FB9BF68FDB624F1259AA</key>
+		<string>devosx001.internal.t-mobile.com:mail</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TMail/TMail.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>9D7E72135AF9DB119591FB9BF68FDB624F1259AA</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>devosx001.internal.t-mobile.com:mail</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>9D7E72135AF9DB119591FB9BF68FDB624F1259AA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9D7E72135AF9DB119591FB9BF68FDB624F1259AA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>InMail</string>
+		</dict>
+	</array>
+</dict>
+</plist>
